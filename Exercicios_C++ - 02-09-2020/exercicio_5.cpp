@@ -15,25 +15,26 @@ int main()
 	cin>>op;
 	switch(op)
 	{
-		case '1':
+		case 1:
 			Desc = 10/100*valor;
 			Pag = valor - Desc;
-			cout<<"Você Pagara com dinheiro: " << Pag << "com 10% de desconto"<<endl;
+			cout<<"VocÃª Pagara com dinheiro: " << Pag << "com 10% de desconto"<<endl;
 			break;
-		case '2':	
+		case 2:	
 			Desc = 5/100*valor;
 			Pag = valor - Desc;
-			cout<<"Você Pagara no cartão:" << Pag << "com 5% de desconto"<<endl;	
+			cout<<"VocÃª Pagara no cartÃ£o:" << Pag << "com 5% de desconto"<<endl;	
 			break;
-		case '3':
+		case 3:
 			Dv1=valor/2;
-			cout<<"Você Pagara 2 parcelas de: " << Dv1 <<endl;	
+			cout<<"VocÃª Pagara 2 parcelas de: " << Dv1 <<endl;	
 			break;			
-		case '4':
+		case 4:
 			Acres = 10/100*valor;
 			Pag = valor + Acres;
 			Dv2 = Pag / 3;
-			cout<<"Você Pagara com dinheiro: " << Dv2 << "com 10% de Acrescimo"<<endl;
+			cout<<"VocÃª Pagara com dinheiro: " << Dv2 << "com 10% de Acrescimo"<<endl;
+			break;
 				
 	}
 	
