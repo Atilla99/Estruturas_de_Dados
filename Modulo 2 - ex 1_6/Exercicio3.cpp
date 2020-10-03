@@ -3,7 +3,7 @@
 
 using namespace std;
 
-#define TAM 10
+#define T 10
 int main()
 {
 	int A[T], M[T];
