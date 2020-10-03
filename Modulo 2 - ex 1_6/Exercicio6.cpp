@@ -3,7 +3,7 @@
 
 using namespace std;
 
-#define TAM 365
+#define T 365
 int main()
 {
 	float temp[T];
@@ -45,7 +45,7 @@ int main()
 
 	cout << endl;
 
-	cout << "Informação: " << endl;
+	cout << "InformaÃ§Ã£o: " << endl;
 	cout << "Temperatura menor: " << min << endl;
 	cout << "Temperatura maior: " << max << endl;
 	cout << "Temperatura media: " << media << endl;
