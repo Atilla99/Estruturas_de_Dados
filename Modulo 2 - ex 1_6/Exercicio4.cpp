@@ -3,7 +3,7 @@
 
 using namespace std;
 
-#define TAM 20
+#define T 20
 int main()
 {
 	int Valor[T];
