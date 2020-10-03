@@ -3,7 +3,7 @@
 
 using namespace std;
 
-#define TAM 11
+#define T 11
 
 void encontra(string vet[T], string nome)
 {
